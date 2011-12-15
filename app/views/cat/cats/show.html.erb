@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @cat.name %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @cat.type %>
+</p>
+
+
+<%= link_to 'Edit', edit_cat_cat_path(@cat) %> |
+<%= link_to 'Back', cat_cats_path %>
